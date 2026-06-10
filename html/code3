@@ -1,0 +1,9 @@
+   p{
+        font-size: xx-large;
+        font-weight:bold;
+    }
+    h1{
+        padding: 20px;
+        border: 20px solid green;
+        margin: 20px;
+    }

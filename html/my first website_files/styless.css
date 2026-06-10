@@ -1,0 +1,119 @@
+p{
+    font-size: xx-large;
+    color: rgb(255, 0, 200);
+    font-weight: bolder;
+}
+
+h1{
+    padding: 10px;
+    border: 20px solid plum;
+    margin: 50px;
+}
+
+
+
+video{
+    width: 600px;
+    height: 300px;
+}
+
+.imgvideo{
+    background-color: rgb(73, 76, 116);
+    padding: 20px;
+}
+ol{
+    list-style-type:up0pper-roman;
+}
+ul{
+    list-style-type: square;
+}
+table{
+    border: 5px solid darkslateblue;
+    border-collapse: collapse;
+    padding: 200px;
+}
+th{
+
+    background-color: lightblue;
+}
+button{
+    background-color: lightgreen;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+button:hover{
+    background-color: rgb(14, 92, 14);
+}
+h1:hover{
+    color:black
+}
+form{
+    height: 7%;
+    width: 50%;
+    background-color: palevioletred;
+    padding: 250px;
+    border-radius: 550px;
+}
+/*.grid{
+    display: grid;
+    width: 400px;
+    grid-template-columns: 500% 500%;
+}*/
+#one{
+    grid-row: 1/2;
+    background-color:blueviolet
+}
+#two{
+    grid-row: 1/2;
+    background-color:maroon
+}
+#three{
+    grid-row: 1/2;
+    background-color:lightcoral
+}
+#four{
+    grid-row: 2/3;
+    background-color:lightseagreen
+}
+#five{
+    grid-row: 2/3;
+    background-color:chocolate
+}
+#six{
+    grid-row: 2/3;
+    background-color:purple
+}
+.CAT{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+img{
+        height:auto;
+        width:500px;
+    }
+@media(min-width:1024px){
+  img{
+        height: 500px;
+        width: 500px;
+        background-color:blueviolet;
+        padding: 100px;
+    }
+}
+/*@media(min-width:1024px){
+    nav{
+        display:flex;
+        flex-direction:row;
+        gap: 20px;
+    }
+}*/
+nav{
+    display:flex;
+    flex-direction:column;
+
+}
+.grid{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+
+}
